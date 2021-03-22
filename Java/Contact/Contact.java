@@ -1,16 +1,11 @@
 package ContactList;
 
-public class Contact {
+public class Contact implements ContactDTO {
+    private long id;
     private String firstName;
     private String lastName;
     private String phoneNumber;
     private String notes;
-    private static Contact instance = new Contact();
-    private Contact(){}
-
-    public static Contact getInstance() {
-        return instance;
-    }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
@@ -42,5 +37,14 @@ public class Contact {
 
     public String getNotes() {
         return notes;
+    }
+
+    @Override
+    public long getID() {
+        return id;
+    }
+
+    public void setId(long id){
+        this.id = id;
     }
 }
