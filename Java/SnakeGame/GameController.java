@@ -40,6 +40,9 @@ public class GameController implements Initializable {
     @FXML
     private Text score;
 
+    @FXML
+    private Text level;
+
     final int BLOCK_SIZE = 20;
     private KeyBoard CURRENT_DIRECTION;
     private int SCORE;
@@ -57,6 +60,7 @@ public class GameController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle)  {
         SPEED = 300;
         LEVEL = 1;
+        level.setText(LEVEL+"");
         Max_Height = Board.getMaxHeight();
         Max_Width = Board.getMaxWidth();
         SnakeCore = FXCollections.observableArrayList();
@@ -92,7 +96,6 @@ public class GameController implements Initializable {
     private void forward(){
         timeline = new Timeline();
         timeline.setCycleCount(Timeline.INDEFINITE);
-        System.out.println(SPEED);
         KeyFrame keyFrame = new KeyFrame(Duration.millis(SPEED), actionEvent -> {
             try {
                 move(CURRENT_DIRECTION);
@@ -127,6 +130,7 @@ public class GameController implements Initializable {
         SCORE = SnakeCore.size()*10;
         if(SCORE/LEVEL == 100){
             LEVEL += 1;
+            level.setText(LEVEL+"");
             SPEED -= 20;
             timeline.stop();
             forward();

@@ -2,6 +2,7 @@
 
 <?import javafx.scene.Group?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
@@ -12,15 +13,29 @@
       <Rectangle fx:id="Target" arcHeight="5.0" arcWidth="5.0" fill="#ff1f2b" height="20.0" stroke="BLACK" strokeType="INSIDE" width="20.0" x="300.0" y="200.0" />
       <Rectangle fx:id="SnakeHead" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
       <Group fx:id="Snake" />
-      <Label layoutX="477.0" layoutY="8.0" prefHeight="20.0" prefWidth="50.0" text="Score:">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-      </Label>
-      <Text fx:id="score" layoutX="527.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="000000000">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Text>
+      <HBox alignment="CENTER" layoutX="349.0" layoutY="2.0" prefHeight="10.0" prefWidth="250.0" spacing="5.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="50.0" text="Level:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Text fx:id="level" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="29.600037574768066">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Label prefHeight="20.0" prefWidth="50.0" text="Score:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Text fx:id="score" strokeType="OUTSIDE" strokeWidth="0.0" text="000000000">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
    </children>
 </Pane>
