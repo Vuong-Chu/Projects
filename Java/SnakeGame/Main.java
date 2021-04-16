@@ -12,6 +12,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("Game.fxml"));
         primaryStage.setTitle("Snake Game");
         Scene scene = new Scene(root, 600, 400);
+        primaryStage.setResizable(false);
         primaryStage.setScene(scene);
         primaryStage.show();
         scene.getRoot().requestFocus();
