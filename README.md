@@ -5,8 +5,6 @@
     <img src="https://github.com/Vuong-Chu/Projects/blob/main/logo.jpg" alt="Logo" width=100 height=100>
   </a>
 
-  <h3 align="center">Logo</h3>
-
   <p align="center">
     Short description
     <br>
