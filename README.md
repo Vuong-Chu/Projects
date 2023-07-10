@@ -6,7 +6,7 @@
   </a>
 
   <p align="center">
-    Short description
+    Greetings! I am currently seeking a job opportunity where I can leverage my expertise in programming, finance, and econometrics. With a diverse skill set and a strong foundation in various programming languages, tools, and quantitative techniques, I am well-equipped to contribute to projects at the intersection of technology and finance.
     <br>
     <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue">Report bug</a>
     ·
