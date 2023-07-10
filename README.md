@@ -31,7 +31,7 @@
 
 ## Quick start
 
-Welcome to these projects, which serve as a showcase of my proficiency in finance, programming, and econometrics. By exploring these projects, you'll gain insights into my skills and expertise in these domains. Whether you're interested in finance, programming, or the intersection of both with econometrics, these projects aim to demonstrate my capabilities and provide practical examples of my work.
+Welcome to these projects, which serve as a showcase of my proficiency in finance, programming, and econometrics. By exploring these projects, you'll gain insights into my skills and expertise in these domains. Whether you're interested in finance, programming, or the intersection of both with econometrics and machine learning, these projects aim to demonstrate my capabilities and provide practical examples of my work.
 
 To begin, take a moment to familiarize yourself with the structure and content of these projects. Each project is designed to highlight different aspects of my competence and expertise. You will find a diverse range of topics, methodologies, and techniques employed throughout these projects.
 
