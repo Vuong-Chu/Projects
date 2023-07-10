@@ -10,9 +10,9 @@
   <p align="center">
     Short description
     <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
+    <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue">Report bug</a>
     ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
+    <a href="https://docs.github.com/en/discussions">Request feature</a>
   </p>
 </p>
 
