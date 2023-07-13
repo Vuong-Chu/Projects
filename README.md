@@ -55,6 +55,7 @@ Projects/
 |      ├── Econometrics
 |      ├── Financial Engineering
 |      ├── Portfolio Management
+|      ├── Algorithmic Trading
 |      └── Misc
 └── Java/
       └── etc
