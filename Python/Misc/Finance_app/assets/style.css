@@ -1,0 +1,13 @@
+/*Increase Datepicker size , .DateInput_input_1, */
+.DateInput_input{ 
+    Height: 34px;
+    Width: 108% !important;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+  }
+
+  .DateRangePickerInput{ 
+    Width: 108% !important;
+  }
